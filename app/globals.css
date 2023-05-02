@@ -27,17 +27,17 @@
 }
 
 .btn-primary {
-  @apply text-base font-bold text-left text-white px-[50px] py-3 rounded-3xl bg-[#377dff];
+  @apply text-base font-bold text-left text-white px-[50px] py-3 rounded-3xl bg-[#377dff] hover:bg-transparent hover:text-[#377dff] hover:border-[#377dff] hover:border transition;
 }
 
 .btn-outline {
-  @apply px-[50px] py-3 rounded-3xl border border-[#377dff] text-base font-bold  text-[#377dff];
+  @apply px-[50px] py-3 rounded-3xl border border-[#377dff] text-base font-bold  text-[#377dff] hover:bg-[#377dff] hover:text-white transition;
 }
 
 .nav-link {
-  @apply text-lg  text-left capitalize text-[#1d1d1d] px-3;
+  @apply text-lg  text-left capitalize text-[#1d1d1d] px-3 hover:font-bold;
 }
 
 .btn-link {
-  @apply text-xl font-bold text-left text-[#377dff];
+  @apply text-xl font-bold text-left text-[#377dff] hover:translate-x-1 transition;
 }
