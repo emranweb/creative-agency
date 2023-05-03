@@ -4,7 +4,7 @@ import TestimonialImage from "@/public/testimonial-image.jpg";
 
 const SingleTestimonial = () => {
   return (
-    <div className="rounded-[20px] shadow-lg w-4/12 px-12 pt-12 pb-24 transition hover:shadow-xl">
+    <div className="rounded-[20px] shadow-lg w-4/12 px-12 pt-12 pb-24 transition hover:shadow-xl md:w-[calc(50%-12px)]">
       <div className="flex gap-x-5 items-center mb-8">
         <Image
           className="rounded-full"

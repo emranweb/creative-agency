@@ -31,7 +31,7 @@
 }
 
 .btn-outline {
-  @apply px-[50px] py-3 rounded-3xl border border-[#377dff] text-base font-bold  text-[#377dff] hover:bg-[#377dff] hover:text-white transition;
+  @apply px-[50px] md:px-[20px] py-3 rounded-3xl border border-[#377dff] text-base font-bold  text-[#377dff] hover:bg-[#377dff] hover:text-white transition;
 }
 
 .nav-link {

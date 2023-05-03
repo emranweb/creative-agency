@@ -11,7 +11,7 @@ const About = () => {
           <h3 className="heading-2 text-center mb-8">Our Teammate</h3>
           <div className="flex">
             <Image
-              className="w-6/12 pr-16"
+              className="w-6/12 pr-16 md:pr-0"
               src={TestimonialImage}
               alt="testimonial image"
             />

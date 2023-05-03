@@ -9,14 +9,14 @@ import { AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className="bg-[#383638] pt-32 pb-8">
-      <div className="container mx-auto">
+      <div className="container mx-auto md:px-4">
         <div className="">
-          <div className="flex mb-20">
-            <div className="w-2/12">
+          <div className="flex mb-20 flex-wrap">
+            <div className="w-2/12 md:w-4/12">
               <Image src={FooterLogo} alt="logo" />
             </div>
 
-            <div className="w-2/12">
+            <div className="w-2/12 md:w-4/12">
               <h4 className="text-[22px] font-bold text-left text-white mb-4">
                 Terms & policies
               </h4>
@@ -25,7 +25,7 @@ const Footer = () => {
                 <Link href="/">Privacy Policy</Link>
               </p>
             </div>
-            <div className="w-2/12">
+            <div className="w-2/12 md:w-4/12">
               <h4 className="text-[22px] font-bold text-left text-white mb-4">
                 Company
               </h4>
@@ -35,7 +35,7 @@ const Footer = () => {
                 <Link href="/">Contact Us</Link>
               </p>
             </div>
-            <div className="w-3/12">
+            <div className="w-3/12 md:w-4/12">
               <h4 className="text-[22px] font-bold text-left text-white mb-4">
                 Contact
               </h4>
@@ -69,7 +69,7 @@ const Footer = () => {
                 <AiOutlineTwitter />
               </div>
             </div>
-            <hr className="w-8/12 mx-auto my-4" />
+            <hr className="w-8/12 mx-auto my-4 md:w-full" />
             <p className="text-lg text-left text-white text-center">
               Copyright @ 2022 Agency Creative. All Right Reserved
             </p>

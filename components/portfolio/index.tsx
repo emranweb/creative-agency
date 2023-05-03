@@ -4,7 +4,7 @@ import PortfolioList from "./PortfolioList";
 const Portfolio = () => {
   return (
     <div className="pt-32">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center md:px-4">
         <div>
           <h2 className="section-heading text-center mb-5">Our Portfolio</h2>
           <h3 className="heading-2 text-center mb-8">What do we do</h3>

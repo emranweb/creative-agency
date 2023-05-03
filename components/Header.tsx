@@ -6,9 +6,9 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div className="pt-16">
-      <div className="container mx-auto">
-        <div className="flex items-center">
-          <div className="w-2/12">
+      <div className="container mx-auto md:px-4">
+        <div className="flex items-center sm:flex-wrap">
+          <div className="w-2/12 sm:w-full">
             <Image src={Logo} alt="logo" />
           </div>
           <div className="w-8/12">
