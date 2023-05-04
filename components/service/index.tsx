@@ -5,9 +5,9 @@ import { FiArrowRight } from "react-icons/fi";
 const Service = () => {
   return (
     <div className="pt-56">
-      <div className="container mx-auto md:px-4">
-        <div className="flex md:flex-col">
-          <div className="w-6/12 pt-12 pr-28 md:w-full">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-wrap">
+          <div className="lg:w-6/12 pt-12 md:pr-28 w-full pr-0">
             <h2 className="section-heading mb-7">Our Services</h2>
             <h3 className="heading-2 mb-4">Perfect and Fast Movement</h3>
             <p className="text mb-9">
@@ -20,7 +20,7 @@ const Service = () => {
               Read more <FiArrowRight className="text-xl" />
             </button>
           </div>
-          <div className="w-6/12 md:w-full">
+          <div className="lg:w-6/12 w-full">
             <ServiceList />
           </div>
         </div>

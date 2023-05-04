@@ -6,13 +6,13 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div className="pt-16">
-      <div className="container mx-auto md:px-4">
-        <div className="flex items-center sm:flex-wrap">
-          <div className="w-2/12 sm:w-full">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center flex-wrap">
+          <div className="md:w-2/12 w-6/12 order-1 ">
             <Image src={Logo} alt="logo" />
           </div>
-          <div className="w-8/12">
-            <ul className="flex justify-center">
+          <div className="md:w-8/12 w-full order-3 mt-4 md:mt-0">
+            <ul className="flex md:justify-center justify-start">
               <li className="nav-link font-bold">
                 <Link href="/">Home</Link>
               </li>
@@ -27,7 +27,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="w-2/12">
+          <div className="md:w-2/12 w-6/12 order-2 md:order-4">
             <button className="btn-outline">Contact us</button>
           </div>
         </div>

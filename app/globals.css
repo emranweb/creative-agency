@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 .heading-1 {
-  @apply text-[64px] font-bold text-center text-[#1d1d1d];
+  @apply text-[34px] lg:text-[64px] font-bold text-center text-[#1d1d1d];
 }
 
 .sub-heading {
-  @apply opacity-60 text-xl text-center text-[#464646];
+  @apply opacity-60  text-xl text-center text-[#464646];
 }
 
 .heading-2 {
-  @apply text-[55px] font-bold  text-[#1d1d1d];
+  @apply text-[35px] lg:text-[55px] font-bold  text-[#1d1d1d];
 }
 
 .section-heading {
-  @apply text-2xl font-semibold  text-[#377dff];
+  @apply text-xl  lg:text-2xl font-semibold  text-[#377dff];
 }
 
 .text {

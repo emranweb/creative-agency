@@ -3,7 +3,7 @@ import SingleTestimonial from "./SingleTestimonial";
 
 const TestimonialList = () => {
   return (
-    <div className="flex  md:flex-wrap justify-between md:gap-x-3 gap-x-10">
+    <div className="flex  flex-wrap justify-between gap-y-4">
       <SingleTestimonial />
       <SingleTestimonial />
       <SingleTestimonial />

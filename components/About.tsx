@@ -5,17 +5,17 @@ import TestimonialImage from "@/public/about-image.png";
 const About = () => {
   return (
     <div className="pt-32">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <div className="">
           <h2 className="section-heading text-center mb-5">About Us</h2>
           <h3 className="heading-2 text-center mb-8">Our Teammate</h3>
-          <div className="flex">
+          <div className="flex flex-wrap">
             <Image
-              className="w-6/12 pr-16 md:pr-0"
+              className="md:w-6/12 lg:pr-16 pr-0 w-full"
               src={TestimonialImage}
               alt="testimonial image"
             />
-            <div className="w-6/12">
+            <div className="md:w-6/12 w-full">
               <p className="text mt-8 mb-6">
                 We move with make a Creative Strategy for help your business
                 goal, we help to improve your income by a services we have. make
