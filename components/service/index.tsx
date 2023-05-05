@@ -4,7 +4,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 const Service = () => {
   return (
-    <div className="pt-56">
+    <div className=" lg:pt-56 pt-24">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap">
           <div className="lg:w-6/12 pt-12 md:pr-28 w-full pr-0">
@@ -16,7 +16,7 @@ const Service = () => {
               content look interesting and make people look for your business
             </p>
 
-            <button className="btn-link flex gap-2 items-center ml-auto md:mb-10">
+            <button className="btn-link flex gap-2 items-center ml-auto mb-10 lg:mb-0">
               Read more <FiArrowRight className="text-xl" />
             </button>
           </div>

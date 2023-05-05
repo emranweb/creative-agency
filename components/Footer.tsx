@@ -12,11 +12,11 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="">
           <div className="flex mb-20 flex-wrap">
-            <div className="lg:w-2/12 md:w-4/12 w-full">
+            <div className="lg:w-2/12 md:w-4/12 w-full mb-12 lg:mb-0">
               <Image src={FooterLogo} alt="logo" />
             </div>
 
-            <div className="lg:w-2/12 md:w-4/12 w-full">
+            <div className="lg:w-2/12 md:w-4/12 w-full mb-12 lg:mb-0">
               <h4 className="text-[22px] font-bold text-left text-white mb-4">
                 Terms & policies
               </h4>
@@ -35,7 +35,7 @@ const Footer = () => {
                 <Link href="/">Contact Us</Link>
               </p>
             </div>
-            <div className="lg:w-3/12 md:w-4/12 w-full">
+            <div className="lg:w-3/12 md:w-4/12 w-full mb-12 lg:mb-0">
               <h4 className="text-[22px] font-bold text-left text-white mb-4">
                 Contact
               </h4>
@@ -44,7 +44,7 @@ const Footer = () => {
                 (+62) 893912392190
               </p>
             </div>
-            <div className="w-3/12">
+            <div className="w-3/12 mb-12 ">
               <h4 className="text-[22px] font-bold text-left text-white mb-4">
                 Location
               </h4>

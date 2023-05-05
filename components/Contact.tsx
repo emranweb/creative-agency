@@ -4,7 +4,7 @@ import ContactImage from "@/public/contact-image.png";
 
 const Contact = () => {
   return (
-    <div className="py-40">
+    <div className="lg:py-40 py-24">
       <div className="container mx-auto px-4">
         <div className="flex justify-between flex-wrap">
           <div className="md:w-6/12 mt-8 w-full">
